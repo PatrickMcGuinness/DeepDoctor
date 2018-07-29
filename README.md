@@ -14,11 +14,16 @@ datasets will be obtained for this project.
 
 Reference papers to be used include:
 Medical Vectors -
-* Y. Choi, Y. Chiu, D. Sontag. Learning Low-Dimensional Representations of Medical Concepts. To appear in Proceedings of the AMIA Summit on Clinical Research Informatics (CRI), 2016. The  embeddings and open-source code to reproduce the results are available at http://clinicalml.org and on github at https://github.com/clinicalml/embeddings.
+* Learning Low-Dimensional Representations of Medical Concepts.  Y. Choi, Y. Chiu, D. Sontag.  To appear in Proceedings of the AMIA Summit on Clinical Research Informatics (CRI), 2016. The  embeddings and open-source code to reproduce the results are available at http://clinicalml.org and on github at https://github.com/clinicalml/embeddings.
 
-* Edward Choi, Mohammad Taha Bahadori, Elizabeth Searles, Catherine Coffey, Michael Thompson, James Bost, Javier Tejedor-Sojo, Jimeng Sun Multi-layer Representation Learning for Medical Concepts. Proceeding KDD '16 Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining Pages 1495-1504.
+* Multi-layer Representation Learning for Medical Concepts. Edward Choi, Mohammad Taha Bahadori, Elizabeth Searles, Catherine Coffey, Michael Thompson, James Bost, Javier Tejedor-Sojo, Jimeng Sun.  Proceeding KDD '16 Proceedings of the 22nd ACM SIGKDD International Conference on Knowledge Discovery and Data Mining Pages 1495-1504.
 
-* Zhengping Che, Yu Cheng, Zhaonan Sun, Yan Liu. Exploiting Convolutional Neural Network for Risk Prediction with Medical Feature Embedding. NIPS 2016 Workshop on Machine Learning for Health (ML4HC).
+* Exploiting Convolutional Neural Network for Risk Prediction with Medical Feature Embedding. Zhengping Che, Yu Cheng, Zhaonan Sun, Yan Liu.  NIPS 2016 Workshop on Machine Learning for Health (ML4HC).
+
+* RETAIN: Interpretable Predictive Model in Healthcare using Reverse Time Attention Mechanism. Edward Choi, Mohammad Taha Bahadori, Andy Schuetzy, Walter F. Stewarty, Jimeng Sun. 
+
+* Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record
+(EHR) Analysis. Benjamin Shickel1, Patrick J. Tighe2, Azra Bihorac3, and Parisa Rashidi. 
 
 Some high-level/basic primers on the topic of word vectors and how CNNs use
 vector representations to perform classification:
