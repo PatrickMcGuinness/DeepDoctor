@@ -25,18 +25,17 @@ Medical Vectors -
 * Deep EHR: A Survey of Recent Advances in Deep Learning Techniques for Electronic Health Record
 (EHR) Analysis. Benjamin Shickel1, Patrick J. Tighe2, Azra Bihorac3, and Parisa Rashidi. 
 
+PDFs of these papers is shared on google drive.
+
 Some high-level/basic primers on the topic of word vectors and how CNNs use
 vector representations to perform classification:
 https://joshuakyh.wordpress.com/2017/11/30/introduction-to-word-embeddings/
 https://joshuakyh.wordpress.com/2017/12/02/understanding-how-convolutional-neural-network-cnn-perform-text-classification-with-word-embeddings/
 
-Milestones:
+Milestones for completing this project:
 1. Collect data for project and share research papers.  8/10
 2. Medical vector coding - based on "Med2Vec" and 'low dimensional representations' paper
 and word2vec/GloVe word vector construction.  8/25
 3. ICD-10 coding from clinical reports (CNN-based arch)  9/10
 4.  Diagnostic classifier from clinical reports (LSTM-based?) Sept.
 
-I will also create a google drive to share papers and data. documents.
-To train up for this, will also share articles on word2vec and using
-CNNs to classify sentences, which inspired the work on medical
