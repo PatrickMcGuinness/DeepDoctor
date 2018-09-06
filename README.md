@@ -12,6 +12,19 @@ We will be using python-based libraries, including Spacy.io (NLP), Tensorflow w/
 Medical records have additional challenges in terms of data and ontologies/terminologies,
 datasets will be obtained for this project.
 
+We are using as first target, doing word embeddings for Biomedical NLP. The paper we are referencing is:
+"How to Train Good Word Embeddings for Biomedical NLP" by Chiu, Crichton, Korhonen and  Pyysalo.
+http://aclweb.org/anthology/W/W16/W16-2922.pdf
+Code for this can be found in the following Github repo:
+https://github.com/cambridgeltl/BioNLP-2016
+
+The biomedical corpus we are using for this is a large corpus of PubMed / PMC (PubMed Central) papers, found here:
+ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/oa_bulk/
+take the 'comm_use' and txt files ... comm_use.O-Z.txt.tar.gz, comm_use.I-N.txt.tar.gz, comm_use.C-H.txt.tar.gz, comm_use.0-9A-B.txt.tar.gz
+if you download these and unpack, you will have  5455 directories of different Journals,
+with text documents, each document is a research paper.  838,383 total documents/files taking up 35GB total.
+
+
 Reference papers to be used include:
 Medical Vectors -
 * Learning Low-Dimensional Representations of Medical Concepts.  Y. Choi, Y. Chiu, D. Sontag.  To appear in Proceedings of the AMIA Summit on Clinical Research Informatics (CRI), 2016. The  embeddings and open-source code to reproduce the results are available at http://clinicalml.org and on github at https://github.com/clinicalml/embeddings.
@@ -33,9 +46,9 @@ https://joshuakyh.wordpress.com/2017/11/30/introduction-to-word-embeddings/
 https://joshuakyh.wordpress.com/2017/12/02/understanding-how-convolutional-neural-network-cnn-perform-text-classification-with-word-embeddings/
 
 Milestones for completing this project:
-1. Collect data for project and share research papers.  8/10
+1. Collect data for project and share research papers.  
 2. Medical vector coding - based on "Med2Vec" and 'low dimensional representations' paper
-and word2vec/GloVe word vector construction.  8/25
-3. ICD-10 coding from clinical reports (CNN-based arch)  9/10
+and word2vec/GloVe word vector construction.
+3. ICD-10 coding from clinical reports (CNN-based arch) 
 4.  Diagnostic classifier from clinical reports (LSTM-based?) Sept.
 
